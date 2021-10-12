@@ -94,8 +94,8 @@ header div figure.inquire { margin:20px 0px 0; }
 .section6 .content .icon figure {  }
 
 
-.section7 { background: #24242D url('../img/img-background-pen@3x.png') no-repeat center center; background-position: 60% 62%; background-size: 670px; }
-.section7 .content { padding:137px 0 0 0; }
+.section7 { background: #24242D; }
+.section7 .content { padding:137px 0 0 0; background: url('../img/img-background-pen@3x.png') no-repeat center center; background-position: 60% 53%; background-size: 80%; }
 .section7 .content span { display: block; color:#fff; font-size: 1.40625rem; line-height: 2.125rem; letter-spacing: -1.35px; text-align: center; }
 .section7 .content span.light { font-family: 'Light'; margin-bottom: 50px; }
 .section7 .content span.bold { font-family: 'Bold'; }
