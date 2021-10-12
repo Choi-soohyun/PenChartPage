@@ -131,8 +131,7 @@ header div figure.inquire { margin:20px 0px 0; }
 .section9 .content { padding:150px 0 180px; color:#fff; }
 .section9 .content .title { margin-bottom:10px; font-family: 'Bold'; font-size: 1.40625rem; line-height: 1.875rem; letter-spacing: -0.9px; }
 .section9 .content .sub-title { margin-bottom:30px; font-family: 'Bold'; font-size: 0.8125rem; line-height: 1.25rem; letter-spacing: -0.52px; }
-.section9 .content a .more { display: inline-block; padding:12px 16px; border:1px solid #fff; border-radius: 3px; }
-.section9 .content a .more figure { display: flex; width:153px; padding:0px; background:transparent; border:0px; }
+.section9 .content a figure { width:187px; padding:0px; background:transparent; border:0px; }
 
 .section10 { padding:110px 0 105px; }
 .section10 .content { position: relative; display: flex; }
@@ -141,8 +140,7 @@ header div figure.inquire { margin:20px 0px 0; }
 .section10 .content figure { margin-right:380px; overflow: hidden; }
 .section10 .content .title { position: relative; z-index: 1; }
 .section10 .content .title span { display: block; font-size: 0.8125rem; }
-.section10 .content .title a .more { display: inline-block; width:187px; margin-top:20px; padding:12px 16px; border:1px solid #000; border-radius: 3px; }
-.section10 .content .title a .more figure { display: flex; width:153px; padding:0px; background:transparent; border:0px; }
+.section10 .content .title a figure { width:187px; margin-top:20px; padding:0px; background:transparent; border:0px; }
 
 .section11 {  background-color: #353535;}
 .section11 .content { padding:105px 0 105px; }
