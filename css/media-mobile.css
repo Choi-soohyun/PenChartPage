@@ -41,7 +41,8 @@ header div figure.inquire { width:41px; margin:20px 0px 0; }
 .section2 .content .title { margin-bottom: 26px; font-family: 'Light'; font-size:1.5625rem; line-height: 2rem; letter-spacing: -0.0625rem; }
 .section2 .content .title span { font-family: 'Bold';  }
 .section2 .content .sub-title { margin-bottom: 5px; font-family: 'Bold'; font-size:0.9375rem; line-height: 2.125rem; letter-spacing: -0.0375rem;  }
-.section2 .content .sub-sub-title { margin-bottom:29px; font-family: 'Light'; font-size:0.74rem; line-height: 1rem; letter-spacing: -0.025rem;}
+.section2 .content .sub-sub-title { margin-bottom:29px; font-family: 'Light'; font-size:0.74rem; line-height: 1rem; letter-spacing: -0.025rem; }
+.section2 .content .sub-sub-title br { display: none !important; }
 .section2 .icon { position: relative; }
 .section2 .icon figure { position: absolute; left: 0; top: 0; width: 234px; }
 
