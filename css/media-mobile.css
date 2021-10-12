@@ -134,16 +134,18 @@ header div figure.inquire { width:41px; margin:20px 0px 0; }
 .section9 .content { padding:77px 0 100px; color:#fff; }
 .section9 .content .title { margin-bottom:5px; font-family: 'Bold'; font-size: 1.40625rem; line-height: 1.875rem; letter-spacing: -0.9px; }
 .section9 .content .sub-title { margin-bottom:20px; font-family: 'Bold'; word-break: keep-all; font-size: 0.8125rem; line-height: 1.25rem; letter-spacing: -0.52px; }
-.section9 .content figure { width:77px; padding:0px; background:transparent; border:0px; }
+.section9 .content a .more { display: inline-block; padding:12px 16px; border:1px solid #fff; border-radius: 3px; }
+.section9 .content a .more figure { display: flex; width:77px; padding:0px; background:transparent; border:0px; }
 
 .section10 { padding:48px 0; }
 .section10 .content { position: relative; display: flex; flex-direction: column; }
 .section10 .content::before { content: ''; display:inline-block; position: absolute; top:40%; left:64%; width: 104px; height: 104px; background-color: #7f7f7f; border-radius: 150px; opacity: 0.2; }
 .section10 .content::after { content: ''; display:inline-block; position: absolute; top: 55%; left:73%; width: 296px; height: 190px; background-color: #ff8c19; border-radius: 300px 300px 0 0; }
-.section10 .content figure { width:162px; height:53px; margin-bottom:43.5px; overflow: hidden; }
+.section10 .content > figure { width:162px; height:53px; margin-bottom:43.5px; overflow: hidden; }
 .section10 .content .title { position: relative; z-index: 1; }
 .section10 .content .title span { display: block; font-size: 0.8125rem; }
-.section10 .content .title figure { width:77px; padding:0px; background:transparent; border:0px; }
+.section10 .content .title a .more { display: inline-block; width:111px; margin-top:20px; padding:12px 16px; border:1px solid #000; border-radius: 3px; }
+.section10 .content .title a .more figure { display: flex; width:77px; height:9.55px; padding:0px; background:transparent; border:0px; }
 
 .section11 {  background-color: #353535;}
 .section11 .content { padding:54px 0; }
