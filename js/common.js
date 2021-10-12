@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  let resizeSmall = false;
-  
+ 
   // 스크롤 이벤트 추가
   window.addEventListener('scroll', function() {
     if (window.scrollY > 80) {
@@ -10,14 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
     } 
   }); 
 
-
-  window.addEventListener('resize', function() {
-    const windowWidth = window.innerWidth;
-
-    if(windowWidth < 580 && !resizeSmall) {
-      resizeSmall = true;
-    }
-  })
   // alert(window.innerWidth)
   
   // const userAgent = navigator.userAgent.toLowerCase();
