@@ -1,0 +1,23 @@
+@font-face { font-family: 'Bold'; src: url('../font/KoPubWorld_Dotum_Bold.ttf'); }
+@font-face { font-family: 'Light'; src: url('../font/KoPubWorld_Dotum_Light.ttf'); }
+@font-face { font-family: 'Medium'; src: url('../font/KoPubWorld_Dotum_Medium.ttf'); }
+
+* { box-sizing:border-box; font-family: 'Bold',sans-serif; }
+html, body { }
+html { font-size:32px; }
+body { margin:0; padding:0;  }
+
+ul, p, figure { margin:0; padding:0; }
+li { list-style: none; margin:0; padding:8px; }
+figure img { width: 100%; }
+button { cursor: pointer; }
+a { text-decoration: none; color:inherit; }
+a:active, label:active { -webkit-tap-highlight-color:transparent; }
+
+img[src$=".gif"], img[src$=".png"] {
+  image-rendering: -moz-crisp-edges;         /* Firefox */
+  image-rendering:   -o-crisp-edges;         /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
