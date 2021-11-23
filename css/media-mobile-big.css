@@ -99,15 +99,15 @@ header div figure.inquire { margin:40px 0px 0; }
 .section7 .content span { display: block; color:#fff; font-size: 1.40625rem;  line-height: 2.125rem; letter-spacing: -1.35px; text-align: center; }
 .section7 .content span.light { font-family: 'Light'; margin-bottom: 50px; }
 .section7 .content span.bold { font-family: 'Bold'; }
-.section7 .tab { position: relative; margin:0 auto; padding-top:583px; }
+.section7 .tab { position: relative; display: flex; flex-wrap: wrap; gap:0 9%; margin:0 auto; padding-top:583px; }
 .section7 .tab input[type='radio'] { display: none; }
-.section7 .tab input[type='radio'] + label { display: inline-block; margin:0 16px 15px; padding:0 3px 4.5px; font-size: 0.78125rem; letter-spacing: -0.0375rem; color:#fff; }
+.section7 .tab input[type='radio'] + label { display: inline-block; margin:0 0px 15px; padding:4.5px 3px; font-size: 0.78125rem; letter-spacing: -0.0375rem; color:#fff; }
 .section7 .tab input[type='radio']:checked + label { color:#ff655a; border-bottom: 3px solid #ff655a; }
 .section7 .tab input[id='tabMobile01']:checked ~ .con01 { display: block; }
 .section7 .tab input[id='tabMobile02']:checked ~ .con02 { display: block; }
 .section7 .tab input[id='tabMobile03']:checked ~ .con03 { display: block; }
 .section7 .tab input[id='tabMobile04']:checked ~ .con04 { display: block; }
-.section7 .tab .conbox { display: none; color:#fff; }
+.section7 .tab .conbox { display: none; color:#fff; width:100%; }
 .section7 .tab .conbox p { min-height:45px; font-size: 0.625rem; font-family: 'Light'; line-height: 0.9375rem; letter-spacing: -0.0375rem; }
 .section7 .tab .conbox figure { position:absolute; top:0; left:50%; transform: translateX(-50%); width:377px; height:500px; overflow: hidden; }
 

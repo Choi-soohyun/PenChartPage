@@ -17,6 +17,8 @@ header div figure.inquire { width:41px; margin:20px 0px 0; }
 .scroll-header .content .header div { display: inline-block; font-family: 'Light'; font-size: 0.74rem; line-height: 1.875rem; letter-spacing: -0.025rem; }
 .scroll-header .content .header div span { font-family: 'Bold'; }
 .scroll-header .content span { font-size: 0.74rem; line-height: 1.875rem; letter-spacing: -0.025rem; }
+.scroll-header .content span.mobile a { display: flex; }
+.scroll-header .content span.mobile a img { width:7px;}
 
 .scroll-header.fixed-top { top: 0px; }
 
@@ -103,16 +105,16 @@ header div figure.inquire { width:41px; margin:20px 0px 0; }
 .section7 .content span { display: block; color:#fff; font-size: 1.40625rem; line-height: 2.125rem; letter-spacing: -1.35px; text-align: center; }
 .section7 .content span.light { font-family: 'Light'; margin-bottom: 38px; }
 .section7 .content span.bold { font-family: 'Bold'; }
-.section7 .tab { position: relative; width:100%; max-width:345px; margin:0 auto; padding-top:290px; }
+.section7 .tab { position: relative; display: flex; flex-wrap: wrap; gap:0 9%; width:100%; max-width:345px; margin:0 auto; padding-top:290px; }
 .section7 .tab input[type='radio'] { display: none; }
-.section7 .tab input[type='radio'] + label { display: inline-block; margin:0 6px 15px; padding:0 3px 4.5px; font-size: 0.78125rem; letter-spacing: -0.0375rem; color:#fff; }
-.section7 .tab input[type='radio'] + label:nth-child(2) { margin-left:6%; }
+.section7 .tab input[type='radio'] + label { display: inline-block; margin:0 0 15px; padding:4.5px 3px; font-size: 0.78125rem; letter-spacing: -0.0375rem; color:#fff; }
+/* .section7 .tab input[type='radio'] + label:nth-child(2) { margin-left:6%; } */
 .section7 .tab input[type='radio']:checked + label { color:#ff655a; border-bottom: 1px solid #ff655a; }
 .section7 .tab input[id='tabMobile01']:checked ~ .con01 { display: block; }
 .section7 .tab input[id='tabMobile02']:checked ~ .con02 { display: block; }
 .section7 .tab input[id='tabMobile03']:checked ~ .con03 { display: block; }
 .section7 .tab input[id='tabMobile04']:checked ~ .con04 { display: block; }
-.section7 .tab .conbox { display: none; color:#fff; }
+.section7 .tab .conbox { display: none; color:#fff; width:100%; }
 .section7 .tab .conbox p { min-height:45px; font-size: 0.74rem; font-family: 'Light'; line-height: 1.2rem; letter-spacing: -0.0375rem; }
 .section7 .tab .conbox figure { position:absolute; top:0; left:50%; transform: translateX(-50%); width:188.5px; height:248px; overflow: hidden; }
 
@@ -152,8 +154,21 @@ header div figure.inquire { width:41px; margin:20px 0px 0; }
 .section11 .content .title { padding-bottom: 2px; font-size:0.75rem; letter-spacing: -0.03rem; color:#fff; border-bottom:1px solid #808080; }
 .section11 .content .copylight { margin-top:5px; font-size:0.75rem; color: #808080; }
 
-@media (max-width:392px) {
-  .section7 .tab input[type='radio'] + label:nth-child(2) {
+
+@media (max-width:420px) {
+  .section7 .tab {
+    gap:0 5%;    
+  }
+  .section7 .tab input[type='radio'] + label {
+    margin-left:1%;
+  }
+}
+
+@media (max-width:370px) {
+  .section7 .tab {
+    gap:0 5px;    
+  }
+  .section7 .tab input[type='radio'] + label {
     margin-left:0;
   }
 }
