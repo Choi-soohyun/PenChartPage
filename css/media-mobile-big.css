@@ -104,7 +104,7 @@ header div figure.inquire { margin:40px 0px 0; }
 .section7 .content span.bold { font-family: 'Bold'; }
 .section7 .tab { position: relative; display: flex; flex-wrap: wrap; gap:0 9%; margin:0 auto; padding-top:583px; }
 .section7 .tab input[type='radio'] { display: none; }
-.section7 .tab input[type='radio'] + label { display: inline-block; margin:0 0px 15px; padding:4.5px 3px; font-size: 0.78125rem; letter-spacing: -0.0375rem; color:#fff; }
+.section7 .tab input[type='radio'] + label { display: inline-block; margin:0 0px 15px; padding:4.5px 3px; font-size: 0.78125rem; letter-spacing: -0.0375rem; color:#fff; cursor: pointer; }
 .section7 .tab input[type='radio']:checked + label { color:#ff655a; border-bottom: 3px solid #ff655a; }
 .section7 .tab input[id='tabMobile01']:checked ~ .con01 { display: block; }
 .section7 .tab input[id='tabMobile02']:checked ~ .con02 { display: block; }
